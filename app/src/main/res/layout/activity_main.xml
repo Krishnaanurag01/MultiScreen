@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        style="@style/content"
+        android:background="@color/teal_200">
+
+        <TextView
+            style="@style/textcontent"
+            android:text="Number"
+            android:id="@+id/numbers"
+            android:layout_gravity="center"
+            android:background="?android:selectableItemBackground"
+           />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black" />
+
+    <FrameLayout
+        style="@style/content"
+        android:background="@color/purple_200">
+
+        <TextView
+            style="@style/textcontent"
+            android:text="Family Members"
+            android:id="@+id/family"
+            android:layout_gravity="center"
+            android:background="?android:selectableItemBackground"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black" />
+
+    <FrameLayout
+        style="@style/content"
+        android:background="@color/purple_700">
+
+        <TextView
+            style="@style/textcontent"
+            android:text="Phrases"
+            android:id="@+id/phrases"
+            android:layout_gravity="center"
+            android:background="?android:selectableItemBackground"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black" />
+    <FrameLayout
+        style="@style/content"
+        android:background="#FFEB3B">
+
+        <TextView
+            style="@style/textcontent"
+            android:text="Idioms"
+            android:id="@+id/idioms"
+            android:layout_gravity="center"
+            android:background="?android:selectableItemBackground"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black" />
+
+</LinearLayout>

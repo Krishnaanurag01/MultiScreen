@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="content">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+<!--        <item name="android:gravity">center</item>-->
+    </style>
+    <style name="textcontent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#E91E63</item>
+        <item name="android:textSize">25dp</item>
+        <item name="textAllCaps">true</item>
+
+    </style>
+
+
+</resources>

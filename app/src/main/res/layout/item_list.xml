@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:minHeight="88dp"
+    android:background="@color/bc">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:id="@+id/item_img" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/backColor">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mihok_text"
+        tools:text="lutti"
+        android:paddingLeft="16dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/default_text"
+        tools:text="default"
+        android:paddingLeft="16dp"
+        android:layout_below="@id/mihok_text"
+        android:textAllCaps="true"/>
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/baseline_play_arrow_24"-->
+<!--           android:layout_gravity="right"-->
+<!--            android:layout_marginBottom="0dp"-->
+<!--            />-->
+
+    </LinearLayout>
+
+</LinearLayout>
